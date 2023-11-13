@@ -1,0 +1,13 @@
+version: '3'
+services:
+    latex:
+        container_name: jupyterlab
+        image: hub.cinaval.com:15000/cinaval_jupyterlab
+        network_mode: bridge
+        volumes:
+            - '/data/jupyter/notebooks:/root/miniconda3/jupyter/notebooks'
+            - '/home/cinaval/docker/runtime/jupyter/conf/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py:ro'
+        ports:
+            - '8888:8888'
+        restart: always
+        hostname: jupyterlab.cinaval.com

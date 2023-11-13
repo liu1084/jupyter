@@ -1,0 +1,8 @@
+deb https://mirrors.163.com/debian/ stable main non-free non-free-firmware contrib
+deb-src https://mirrors.163.com/debian/ stable main non-free non-free-firmware contrib
+deb https://mirrors.163.com/debian-security/ stable-security main
+deb-src https://mirrors.163.com/debian-security/ stable-security main
+deb https://mirrors.163.com/debian/ stable-updates main non-free non-free-firmware contrib
+deb-src https://mirrors.163.com/debian/ stable-updates main non-free non-free-firmware contrib
+deb https://mirrors.163.com/debian/ stable-backports main non-free non-free-firmware contrib
+deb-src https://mirrors.163.com/debian/ stable-backports main non-free non-free-firmware contrib
